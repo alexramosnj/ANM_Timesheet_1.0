@@ -1,0 +1,139 @@
+﻿/*Styles for web page structure*/
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+
+header {
+  width: 100%;
+  background: #437eab;
+  color: white;
+}
+
+content { 
+    overflow:auto;
+}
+
+footer {
+  width: 100%;
+  background: #0d1b35;
+  color: white;
+}
+
+footer, .push {
+    height: 60px; /* .push must be the same height as .footer */
+}
+
+.headercontainer {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  /*margin:20px;*/
+  font-family: helvetica, sans-serif;
+}
+
+.footercontainer {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.left {
+    display:inline-block;
+    text-align:left;
+    width:29%;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.right {
+    float:right;
+    text-align: right;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+/*Styles for particular elements*/
+
+#DivRowsButtons {
+    text-align: right;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+img {
+    max-height: 100%;
+}
+
+th, td{
+    text-align:center;
+}
+
+.Contact {
+    font-size:x-small !important;   
+}
+
+.botom-buffer {
+    margin-top:20px;
+
+}
+
+/*input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-calendar-picker-indicator {
+   display: none;
+}*/
+
+/*Styles for notifications*/
+
+.submitalertdanger{
+    display:block;
+    background-color:rgba(213, 5, 5, 0.24) !important;
+    color: #c9302c;
+    text-align:center;
+    outline-width:initial !important;
+    border-color:#c9302c !important;
+}
+
+.submitalertsuccess{
+    display:block;
+    background-color:rgba(83, 204, 9, 0.31) !important;
+    color: #326f04;
+    text-align:center;
+    outline-width:initial !important;
+    border-color:#326f04 !important;
+}
+
+.warningsignal {
+    color:#d9534f;
+    font: bold;
+
+}
+
+.warningmessage {
+    color:#c60d0d;
+    font: bold;
+    display:block;
+}
+
+.nonewarningmessage {
+    display:none;
+}
+
+.inputerror{
+    border-color:#c60d0d !important;
+    border-width:1.5px;
+}
+
+
+
+
